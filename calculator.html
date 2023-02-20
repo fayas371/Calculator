@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <h1>Calculator project</h1>
+    <div class="calculator">
+      <table class="calculator-project">
+        <tr>
+          <td colspan="4"><input id='values' class="textfield" type="text" name="" value="" disabled></td>
+        </tr>
+          <tr>
+            <td colspan="2"><input class="buttons" onclick='clearScreen()' id='result' type="button" name="" value="C"></td>
+            <td><input class="buttons" onclick="display('%')" id='modulus' type="button" name="" value="%"></td>
+            <td><input class="buttons" onclick='Backspace()' id='backspace' type="button" name="" value="⌫"></td>
+          </tr>
+      <tr>
+        <td><input class="buttons" id='numbers' onclick="display('1')" type="button" name="" value="1"></td>
+        <td><input class="buttons" id='numbers' onclick="display('2')" type="button" name="" value="2"></td>
+        <td><input class="buttons" id='numbers' onclick="display('3')" type="button" name="" value="3"></td>
+        <td><input class="buttons" id='operations' onclick="display('+')" type="button" name="" value="+"></td>
+    </tr>
+    <tr>
+      <td><input class="buttons" id='numbers' onclick="display('4')" type="button" name="" value="4"></td>
+      <td><input class="buttons" id='numbers' onclick="display('5')" type="button" name="" value="5"></td>
+      <td><input class="buttons" id='numbers' onclick="display('6')" type="button" name="" value="6"></td>
+      <td><input class="buttons" id='operations' onclick="display('-')" type="button" name="" value="-"></td>
+     </tr>
+     <tr>
+    <td><input class="buttons" id='numbers' onclick="display('7')" type="button" name="" value="7"></td>
+    <td><input class="buttons" id='numbers' onclick="display('8')" type="button" name="" value="8"></td>
+    <td><input class="buttons" id='numbers' onclick="display('9')" type="button" name="" value="9"></td>
+    <td><input class="buttons" id='operations' onclick="display('*')" type="button" name="" value="*"></td>
+    <tr>
+      <td><input class="buttons" id='numbers' onclick="display('.')" type="button" name="" value="."></td>
+      <td><input class="buttons" id='numbers' onclick="display('0')" type="button" name="" value="0"></td>
+      <td><input class="buttons" id='numbers' onclick="calculate()" type="button" name="" value="="></td>
+      <td><input class="buttons" id='operations' onclick="display('/')" type="button" name="" value="/"></td>
+    </tr>
+
+    </table>
+    <script src='calculator.js'>
+
+    </script>
+    </div>
+  </body>
+</html>

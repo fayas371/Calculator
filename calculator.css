@@ -1,0 +1,57 @@
+body{
+  background-color: #EB455F;
+}
+
+ .calculator{
+  width:36%;
+  height:480px;
+  margin: auto;
+
+  border:2px solid black;
+  background-color:black;
+}
+
+.calculator-project{
+  border: none;
+
+}
+
+.buttons{
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+h1{
+  text-align: center;
+}
+.textfield{
+  height:100px;
+  width: 430px;
+  float: right;
+  text-align: right;
+  font-size: 50px;
+}
+#operations{
+  background-color: red;
+  width: 110px;
+}
+.buttons:hover{
+  background-color: blue;
+}
+#result{
+  background-color: orange;
+  width: 200px;
+}
+
+#numbers{
+  width: 100px;
+}
+#backspace{
+  background-color: orange;
+  width: 110px;
+}
+#modulus{
+  background-color: orange;
+  width: 100px;
+}
